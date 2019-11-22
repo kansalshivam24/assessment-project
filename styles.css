@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-image: url(60113.jpg);
+        font-family: Arial, sans-serif;
+        line-height: 1.4;
+        color: #333;
+        overflow-x: hidden;
+    }
+    
+
+    /* output styling */
+    #container{
+        border: #333;
+        background-color: lightgrey;
+        padding: 30px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    h2{
+        font-family: 'Titan One';
+    }
+    #container1{
+        border: #333;
+        background-color: lightgrey;
+        padding: 30px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    footer {
+        background-color: #333333;
+        color: #333333 ;
+        margin-top: 111px;
+        padding: 20px;
+        text-align: center;
+        height: 70px;
+      }
+    
+    
+    
+    
+    
