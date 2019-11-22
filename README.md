@@ -17,5 +17,5 @@
 
 ## Links For Live Websites
 * myResume              https://kansalshivam24.github.io/My.Resume/
-* assessment-project  
+* assessment-project    https://kansalshivam24.github.io/assessment-project/
         
