@@ -28,16 +28,33 @@
             </form>
          </div>
       </nav>
-      <div id="container">
+
+      <div class="container">
+           
+            <div class="card" style="width:400px; margin-left: 400px;">
+              <img class="card-img-top" src="sunrise.jpg" alt="Card image" style="width:80%">
+              <div class="card-body">
+                <h2 class="card-title">Sunrise & Sunset</h2>
+                <p class="card-text"><input style="padding-right: 20px;" type="text" id="search" placeholder="Search City" style="width: 100px;"></p>
+                <button type="button" class="btn btn-success" onclick="loadCity()">Search</button>
+              </div>
+            </div>
+            <br>
+            
+            
+          </div>
+          
+      <!-- <div id="container">
          <h1 style="font-weight: 800; margin-left: 20px; margin-top: 20px;" >Sunset and Sunrise timmings:</h1>
          <div class= "searchbar" style="margin-left: 20px; margin-top: 30px;">
-            <input style="padding-right: 20px;" type="text" id="search" placeholder="Search City" style="width: 30%;">
-            <!-- <input class="form-control" id="search" type="text" placeholder="Readonly input here..." readonly> -->
-            <!-- <input type="button" value="Search" onclick="loadCity()"> -->
-            <button type="button" class="btn btn-success" onclick="loadCity()">Search</button>
+            <input style="padding-right: 20px;" type="text" id="search" placeholder="Search City" style="width: 30%;">  -->
+<!--             
+            <button type="button" class="btn btn-success" onclick="loadCity()">Search</button>-->
          </div>
-         <div id="container1" style="margin-top: 30px; "></div>
-      </div>
+         <div id="container1" ></div>
+      
+
+      
       <script src="jQ.js"></script>
    </body>
 </html>
