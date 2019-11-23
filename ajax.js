@@ -10,7 +10,7 @@ window.onload = function() {
      var res=" ";
      for(var i=0;i<10;i++)
      {
-       res =res+ "<p>" + data.articles[i].content + data.articles[i].description + "</p><br>";
+       res =res+ "<p>" +'<b>'+ data.articles[i].content+'</b>' + data.articles[i].description + "</p><br>";
       // container.append(res);
       
     document.getElementById("container").innerHTML = res ;
